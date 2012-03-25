@@ -1,5 +1,18 @@
 function [ nname ] = recordAces(m, d, tname)
 
+%% function [ nname ] = recordAces(m, d, tname)
+%
+% Records to aces file.
+%
+% Send: 
+% 	m 	= 	structure of motor names
+% 	d	= 	matrix of size [MxN] where 
+%			N = number of motor names
+%			M = number of time steps recorded
+%
+% Return:
+%	nname 	=	the name of the file that has been recorded
+
 	nname = [tname,'.aces'];
 	fid = fopen(nname,'w');
 
