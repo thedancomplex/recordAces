@@ -21,7 +21,7 @@ for( i = 1:length(m) )
 end
 	fprintf(fid,'\n');
 
-s = size(d)
+s = size(d);
 for( i = 1:s(1) )
 
 	for( j = 1:s(2) )
