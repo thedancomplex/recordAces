@@ -27,7 +27,7 @@ for( i = 1:s(1) )
 	for( j = 1:s(2) )
 	fprintf(fid,[num2str(d(i,j)),' ']);
 	end
-	fpritnf(fid,'\n');
+	fprintf(fid,'\n');
 end
 
 fclose(fid);
